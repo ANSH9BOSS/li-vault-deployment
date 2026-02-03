@@ -1,0 +1,20 @@
+
+{
+  "name": "li-hub-ultimate",
+  "version": "6.0.0",
+  "description": "Unified Polyglot IDE for Termux",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "install-deps": "pkg install nodejs python git clang -y && npm install"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "fs-extra": "^11.1.1",
+    "path": "^0.12.7"
+  },
+  "author": "Li",
+  "license": "MIT"
+}
